@@ -1,0 +1,31 @@
+body{
+    background-color: blueviolet;
+    color:red
+}
+
+h1{
+    color: chartreuse;
+}
+
+p{
+    color: cornsilk;
+}
+
+#parrafo2{
+    color:cyan;
+}
+
+#parrafo3{
+    color:darkturquoise
+}
+
+
+/* 
+#parrafo5,
+#parrafo6{
+    color: gold;
+} */
+
+.amarillo{
+    color:yellow;
+}
