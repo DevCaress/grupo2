@@ -1,0 +1,27 @@
+body{
+    background-color: cornflowerblue;
+}
+p{
+    font-family: Helvetica;
+    font-size: 24px;
+    color: cornsilk;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 30px;
+    word-spacing: 20px;
+}
+
+ul{
+    list-style-type: lower-greek;
+    list-style-position: inside;
+}
+
+ul li{
+    font-size: 30px;
+    color:darkmagenta;
+    background-color: green;
+}
+
+#list2{
+    list-style-image: url(../img/favicon.ico);
+}
