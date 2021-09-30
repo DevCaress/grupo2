@@ -1,0 +1,36 @@
+#btn{
+    height: 100px;
+    background-color: blueviolet;
+}
+
+#btn:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+    height: 50px;
+    width: 20%;
+}
+
+section{
+    padding: 20px;
+}
+
+span{
+    background-color: coral;
+    color: cornsilk;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#container{
+    height: 50px;
+    background-color: crimson;
+    opacity: 0;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+span:hover ~ #container{
+    opacity: 1;
+}
