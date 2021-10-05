@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+nav{
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+
+li{
+    display: inline-block;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+
+
+
+a:hover{
+    background-color: darkcyan;
+}
+
+main{
+    /* position: relative; */
+    background-color: cyan;
+    height: 50px;
+}
+#sec1{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px;
+
+    position: absolute;
+    top:50px;
+    left:10px;
+
+    z-index: 2;
+}
+
+/* div{
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+
+    position: absolute;
+    left: -40px;
+    top:-20px;
+
+    z-index: 1;
+} */
+
+body > p{
+    background-color: dodgerblue;
+}
+
+#up{
+    position: fixed;
+    background-color: darkorange;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 999;
+}
+html body > footer.footer#footer{
+    background-color: deeppink;
+}
+html body footer.footer#footer{
+    background-color: deepskyblue;
+}
+body footer{
+    background-color: dimgray;
+}
+footer.footer#footer{
+    background-color: deeppink;
+}
+footer.footer{
+    background-color: deeppink;
+}
+#footer{
+    background-color: darkviolet;
+}
+
+
+.footer{
+    background-color: darkturquoise;
+}
+
+footer{
+    background-color: darkslateblue;
+    color: #fff;
+}
+
+div + p{
+    background-color: gold;
+}
+
+/* div ~ p{
+    background-color: green;
+} */
+
