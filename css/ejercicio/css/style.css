@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #e5e5e5;
+}
+
+header{
+    background-color: #141414;
+}
+
+header nav{
+    display: flex;
+    padding: 16px 50px;
+    align-items: center;
+    font-size: 14px;
+    justify-content: space-between;
+}
+header nav div{
+    display: flex;
+}
+
+header nav div #logo{
+    width: 90px;
+}
+
+header nav div img{
+    width: 100%;
+}
+
+header nav div ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+}
+header nav div ul li{
+    padding: 0 10px;
+}
+header nav div ul li:first-child{
+    font-weight: bold;
+}
+
+header nav div ul li a{
+    text-decoration: none;
+}
+
+header nav #submenu{
+    display: flex;
+    align-items: center;
+}
+header nav #submenu div{
+    padding: 0 15px ;
+}
+
+header nav #submenu svg{
+    width: 20px;
+}
