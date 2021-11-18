@@ -1,0 +1,56 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    font-family: Helvetica;
+}
+main {
+    background-color: brown;
+    padding: 10px;
+}
+
+.animals{
+    color: #fff;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 10px;
+}
+
+#contPopUp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(169, 169, 169, 0.733);
+    display: none;
+}
+
+#contPopUp #popUp{
+    width: 100px;
+    position: absolute;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    top: 10px;
+    left: calc((100% / 2) - 50px);
+}
+
+#contPopUp #popUp div{
+    background-color: crimson;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 5px 0;
+}
+
+#contPopUp #popUp div:hover{
+    background-color: rgb(129, 20, 42);
+    cursor: pointer;
+}
