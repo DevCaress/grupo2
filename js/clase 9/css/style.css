@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet
+}
+
+main{
+    background-color: rgb(32, 29, 29);
+    width: 500px;
+    margin: 100px auto 0;
+}
+
+main #screen{
+    background-color: cornsilk;
+    font-size: 40px;
+    text-align: right;
+    padding: 10px;
+}
+
+main #btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #btns .btn{
+    width: 25%;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    text-align: right;
+    border: 1px solid rgb(32, 29, 29);
+}
+
+main #btns .btn:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+}
