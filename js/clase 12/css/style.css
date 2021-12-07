@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+div{
+    background-color: gray;
+    color: #fff;   
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 33.33%;
+}
+
+div img{
+    width: 100%;
+    border-radius: 10px;
+}

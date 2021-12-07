@@ -1,0 +1,27 @@
+div#container{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+div#container2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+div#container3{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+#nogara{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/wiwichu-a-merry-crisma.png);
+    background-size: contain;
+}
+#nogara2{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/hallowin.png);
+    background-size: contain;
+}

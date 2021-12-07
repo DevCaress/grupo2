@@ -1,0 +1,11 @@
+button.perro{
+    background-color: black;
+    color: #fff;
+}
+
+
+div{
+    background-color: blueviolet;
+    padding: 15px;
+    display: none;
+}
