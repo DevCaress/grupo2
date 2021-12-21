@@ -13,7 +13,6 @@ const createToDo = (inputUser) => {
 }
 
 
-
 const btnSend = document.getElementById('enviar');
 btnSend.addEventListener('click', (event) => {
     event.preventDefault();
