@@ -9,18 +9,18 @@
 /* Tiktok de personas que hay que seguir */
 
 document.getElementsByTagName('button')[0].addEventListener('click', mensaje);
-document.getElementsByTagName('button')[0].addEventListener('mousedown', mouseDown2);
+/* document.getElementsByTagName('button')[0].addEventListener('mousedown', mouseDown2);
 document.getElementsByTagName('button')[0].addEventListener('mouseenter', cursosEnter);
 document.getElementsByTagName('button')[0].addEventListener('mouseover', cursorOver);
 document.getElementsByTagName('button')[0].addEventListener('mouseout', cursorOut);
 document.getElementsByTagName('button')[0].addEventListener('mouseleave', cursorLeave);
-document.getElementsByTagName('button')[0].addEventListener('mousemove', cursorMove);
+document.getElementsByTagName('button')[0].addEventListener('mousemove', cursorMove); */
 
 function mensaje(event){
     
     event.target.classList.toggle('perro');
 
-    console.log(event);
+    console.log(this.classList);
 }
 function mouseDown2(){
     console.log('mousedown');
