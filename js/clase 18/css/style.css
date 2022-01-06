@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+section#input{
+    background-color: blueviolet;
+    font-size: 40px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#input > label{
+    margin-bottom: 10px;
+}
+section#input > input{
+    width: 500px;
+    font-size: 30px;
+    padding: 10px;
+}
+section#input > div{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: blueviolet;
+}
+section#input > div:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    outline: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+section#todos .tarea{
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+section#todos .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 55px);
+    outline: 1px solid black;
+}
+section#todos .delete{
+    padding: 20px;
+    background-color: crimson;
+    outline: 1px solid black;
+}
+section#todos .delete:hover{
+    cursor: pointer;
+    background-color: rgb(129, 17, 40);
+}
+
+#editar{ display: none;}
+
+section#todos .editar{
+    padding: 20px;
+    background-color: rgb(40, 20, 220);
+    outline: 1px solid black;
+}
+section#todos .editar:hover{
+    cursor: pointer;
+    background-color: rgb(27, 15, 131);
+}
